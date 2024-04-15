@@ -1,0 +1,6 @@
+body {
+    background-image: url('./assets/images/nairobi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8 ;
+  }
