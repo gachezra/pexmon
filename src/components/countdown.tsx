@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const CountDown = () => {
   // Set the target end date (May 21st)
-  const targetDate = new Date('May 21, 2024 00:00:00').getTime();
+  const targetDate = new Date('Jul 21, 2024 00:00:00').getTime();
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
   // Calculate time remaining function
