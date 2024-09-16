@@ -11,8 +11,7 @@ export default function NikoKadi() {
           Pioneering Digital Solutions for Tomorrow's Leaders
         </h1>
         <p className="text-center lg:text-start lg:pr-11 lg:my-10 text-base lg:text-lg my-6 text-[hsl(0,0%,41%)] font-medium">
-          Pexmon LTD is a leading technology solutions provider. Delivering innovative mobile apps, web platforms, and digital
-          services to businesses across Kenya
+          The popular game NikoKadi which is widely popular in Kenya is reimagined and made availabe to players worldwide.
         </p>
         <div className="text-white bg-[hsl(0,0%,8%)] hover:bg-transparent hover:border hover:text-[hsl(0,0%,8%)] hover:border-[hsl(0,0%,8%)] py-3 px-6 rounded-xl">
           <a href='' className="text-base font-medium">
