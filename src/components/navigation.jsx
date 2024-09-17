@@ -55,7 +55,7 @@ export default function Navigation() {
                         {isDropdownOpen1 && (
                             <ul className="absolute bg-white top-10 p-5 rounded-lg text-base drop-shadow-2xl">
                                 <li className="flex items-center mb-2"><span className="mr-4"><IconKadi/></span><a href="" className="whitespace-nowrap">Niko Kadi</a></li>
-                                <li className="flex items-center mb-2"><span className="mr-4"><IconCalendar/></span><a href="">EventKick</a></li>
+                                <li className="flex items-center mb-2"><span className="mr-4"><IconCalendar/></span><a href="https://eventkick.ke/">EventKick</a></li>
                                 <li className="flex items-center mb-2"><span className="mr-4"><IconMyfit/></span><a href="">MyFit</a></li>
                             </ul>
                         )}
