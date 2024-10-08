@@ -1,6 +1,10 @@
 body {
-    background-image: url('./assets/images/nairobi.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.8 ;
-  }
+  background-image: url('./assets/images/nairobi.jpg');
+  background-repeat: repeat-y; /* Repeat vertically */
+  background-size: cover; /* Ensures the width is covered */
+  background-attachment: fixed;
+  background-position: center top; /* Positions the background image at the top center */
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+}

@@ -14,7 +14,14 @@ export default {
       'lg': '1440px',
       // => @media (min-width: 1440px) { ... }
     },
-    extend: {},
+    extend: {
+      colors: {
+        cream: '#f9f5e3', // Cream color
+        'light-cream': '#fdf9e8', // Light cream color
+        brown: '#7d5b35', // Brown color
+        'dark-brown': '#5b3f22', // Darker brown for hover effects
+      },
+    },
   },
   plugins: [],
 }

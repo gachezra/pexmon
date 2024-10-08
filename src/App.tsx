@@ -1,9 +1,11 @@
+import './App.css';
 import Navigation from './components/navigation';
 import Hero from './components/hero';
 import CountDown from './components/countdown';
-//import CookieBanner from './components/cookie-consent';
 import desktophero from './assets/images/image-hero-desktop.png';
-import './App.css';
+import EventKick from './components/EventKick';
+import VarsityRank from './components/VarsityRank';
+import NikoKadi from './components/NikoKadi';
 
 function App() {
   return (
@@ -22,6 +24,9 @@ function App() {
             />
           </div>
         </div>
+        <EventKick/>
+        <NikoKadi/>
+        <VarsityRank/>
         <CountDown/>
       </div>
     </div>

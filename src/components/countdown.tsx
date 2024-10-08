@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const CountDown = () => {
   // Set the target end date (May 21st)
-  const targetDate = new Date('Jul 21, 2025 00:00:00').getTime();
+  const targetDate = new Date('Dec 25, 2024 00:00:00').getTime();
   const [timeRemaining, setTimeRemaining] = useState(calculateTimeRemaining());
 
   // Calculate time remaining function
@@ -33,7 +33,10 @@ const CountDown = () => {
   return (
     <div className="bg-black text-white py-8 px-6 sm:items-center sm:justify-center">
       <div className="sm:text-center sm:mb-4">
-        <h1 className="text-2xl lg:font-bold mt-20 sm:mb-10">Something big is coming soon!</h1>
+        <h1 className="text-2xl lg:font-bold mt-20 sm:mb-10">More projects coming soon!</h1>
+      </div>
+      <div className="sm:text-center sm:mb-4">
+        <h1 className="text-xl lg:font-bold mt-20 sm:mb-10">Anyways, days to Chrismas</h1>
       </div>
       <div className="flex flex-wrap my-20 justify-center gap-4 text-xl">
         <div className="text-center">
