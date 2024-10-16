@@ -4,8 +4,7 @@ const VarsityRank = () => {
   return (
     <div id="varsityrank" className="bg-light-cream text-brown p-10 w-full mx-auto shadow-lg">
       {/* Title with the VarsityRank name */}
-      <h1 className="text-6xl font-extrabold mb-4">VarsityRank</h1>
-
+      <h1 className="text-4xl font-extrabold mb-4">VarsityRank</h1>
       {/* Tagline */}
       <h2 className="text-2xl font-medium mb-6 text-cream">Your Guide to Choosing the Right University</h2>
 
